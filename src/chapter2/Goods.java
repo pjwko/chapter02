@@ -8,12 +8,22 @@ public class Goods {
 
 	public static int countOfGoods;
 
+	
 	public Goods() {
 		// static 변수는 클래스 이름으로 접근
 		// Goods.countOfGoods++;
 		countOfGoods++;
 	}
 
+	public Goods(String name, int price, int countStock, int countSold) {
+		this.name = name;
+		this.price = price;
+		this.countStock = countStock;
+		this.countSold = countSold;
+		
+		countOfGoods++;
+	}
+	
 	public String getName() {
 		return name;
 	}
