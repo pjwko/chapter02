@@ -1,4 +1,6 @@
-package paint;
+package com.example.paint.shape;
+
+import com.example.paint.i.Drawable;
 
 public abstract class Shape implements Drawable{
 	private String fillColor;

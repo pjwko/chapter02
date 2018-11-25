@@ -1,4 +1,4 @@
-package paint;
+package com.example.paint.shape;
 
 public class Triangle extends Shape{
 	private int x1;

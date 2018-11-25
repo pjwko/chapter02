@@ -1,4 +1,12 @@
-package paint;
+package com.example.paint.main;
+
+import com.example.paint.i.Drawable;
+import com.example.paint.point.ColorPoint;
+import com.example.paint.point.Point;
+import com.example.paint.shape.Circle;
+import com.example.paint.shape.Rect;
+import com.example.paint.shape.Shape;
+import com.example.paint.shape.Triangle;
 
 public class MainApp {
 
