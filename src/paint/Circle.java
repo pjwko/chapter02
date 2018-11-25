@@ -34,4 +34,9 @@ public class Circle extends Shape {
 		System.out.println("원을 그렸습니다.");
 	}
 
+	@Override
+	public int calcArea() {
+		return (int)(radius * radius * Math.PI);
+	}
+
 }

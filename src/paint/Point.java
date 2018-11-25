@@ -1,13 +1,15 @@
 package paint;
 
-public class Point {
+public class Point implements Drawable{
 	private int x;
 	private int y;
 	
 	public Point() {
+		System.out.println("Point() called");
 	}
 	
 	public Point(int x, int y) {
+		System.out.println("Point(int, int) called");
 		this.x = x;
 		this.y = y;
 	}
@@ -41,5 +43,10 @@ public class Point {
 					x + ",y=" + 
 					y + "] 지웠습니다.");
 		}
+	}
+
+	@Override
+	public void draw() {
+		show();
 	}
 }
